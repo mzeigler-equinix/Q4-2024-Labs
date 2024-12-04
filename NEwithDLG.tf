@@ -35,7 +35,7 @@ resource "equinix_network_device" "MZlabSV" {
   core_count           = 2
   term_length          = 1
   additional_bandwidth = 0
-  acl_template_id      = "6ec8552b-aba2-4765-b237-4a1ddc9169b4"
+  acl_template_id      = "MZLabACL"
 
   ssh_key {
     username = "mzeigler"
@@ -59,7 +59,7 @@ resource "equinix_network_device" "MZlabDA" {
   core_count           = 2
   term_length          = 1
   additional_bandwidth = 0
-  acl_template_id      = "6ec8552b-aba2-4765-b237-4a1ddc9169b4"
+  acl_template_id      = "MZLabACL"
 
   ssh_key {
     username = "mzeigler"
