@@ -7,3 +7,8 @@ Create two different self-managed Network Edge devices in two different metros a
 - Second device is in DA Metro
 
 <h2>Metal to Fabric to Metal Lab</h2>
+
+- First device is in DA Metro
+- Second device is in DC Metro
+
+- Both severs will be in the same vlan and will have a VC connecting them.
